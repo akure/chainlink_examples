@@ -3,8 +3,9 @@
 This guide walks you through deploying a Solidity smart contract that interacts with Chainlink data feeds to retrieve the latest BTC/USD price on the Sepolia testnet.
 
 ## Pre-requisit 
-Fountry has to be installed properly.  And you should create a default directory structure with `forge init`  command, which will give below directory structure with related
-fountry lib files as well. 
+The foundry has to be installed properly.  You should create a default directory structure with the `forge init`  command, which will also give the below directory structure related to foundry lib files. 
+
+```
 .
 ├── foundry.toml
 ├── lib
@@ -12,7 +13,7 @@ fountry lib files as well.
 ├── script
 ├── src
 └── test
-
+```
 
 
 ## Step 1: Create the Smart Contract
@@ -175,3 +176,12 @@ ETHERSCAN_KEY=YOUR_ETHERSCAN_KEY
 ## Conclusion
 
 You've successfully deployed a smart contract that interacts with the Chainlink BTC/USD price feed on the Sepolia testnet and retrieved the latest price using Foundry's powerful scripting tools.
+
+
+ 
+## References
+
+- https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1#sepolia-testnet
+- https://docs.chain.link/data-feeds/api-reference/#aggregatorv3interface
+- https://docs.chain.link/data-feeds/getting-started
+
